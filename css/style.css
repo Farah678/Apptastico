@@ -1,0 +1,282 @@
+/*
+STYLES.CSS
+*/
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+body {
+    overflow-x: hidden !important;
+    width: 100%;
+}
+h1, h2, p
+{
+ font-family: 'Roboto', sans-serif;   
+}
+a:hover
+{
+    text-decoration: none;
+    color: #404c53;
+}
+#home
+{
+    background-image: url(../images/BG.jpg); 
+}
+    .logo
+        {
+            margin: 10px 0px 0px 50px;
+        }
+      .logo a
+        {
+      font-size: 31px;
+      font-family:'Pacifico', cursive;
+      color: rgb(255, 255, 255);
+      text-align: left;
+      text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+        }
+        .logo a:hover 
+                    {
+                        
+                    }
+.nk-navbar li
+{
+    float:left;
+    list-style: none;
+}
+    .nk-navbar li a
+    {
+       text-decoration: none;
+    }
+.web-links
+{
+    margin:20px;
+    padding: 05px 20px;
+}
+
+    .web-links a
+    {
+      font-size: 15px;
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    }
+    .web-links:hover
+    {
+        border-radius: 30px;
+        background-color: #404c53;
+    }
+.homepage
+{
+    padding: 120px 0px 0px;
+}
+.home-content
+{
+    padding: 50px 0px 50px;
+}
+.home-content h1
+{
+    font-weight: bold;
+    font-size: 48px;
+    color: white;
+}
+.home-p1
+{
+    padding: 0px 10px;
+    color: white;
+}
+.home-p2
+{
+    padding: 0px 10px;
+    color:#9a9a9b;
+}
+.home-btn
+{
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: #3b91d0;
+    margin-right: 5px;
+   -webkit-box-shadow: 0 10px 42px 2px #404447;
+box-shadow: 0 10px 42px 2px #404447;
+}
+.home-btn a
+{ font-size: 14px;
+  color:white;
+  font-weight: bold;
+}
+.home-btn:hover
+{
+color:white;
+background-color: #136db7;    
+}
+.home-p3
+{
+    color: white;
+}
+.home-link
+{
+  font-size: 15px;
+    color: white;
+    margin-left: 5px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.home-link:hover
+{
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: white;
+}
+.dummy-logo-bar
+{
+background-color: #ececec;
+
+}
+.dummy-logo
+{
+    padding:20px 105px ;
+}
+#about
+{
+    padding: 60px 60px 0px;
+    background-color: #f6f6f6;
+}
+.about-content
+{
+    padding: 30px;
+}
+.heading
+{
+    color:#57656f;
+}
+.para
+{
+    color:#aaaaaa;
+}
+.about-btn
+{
+    background-color:#5299d0;
+    width:110px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+}
+.about-btn a
+{
+    color:#ffffff;
+}
+.about-btn:hover
+{
+    background-color: #136db7;
+    color:#ffffff;
+}
+#work
+{
+    padding: 60px 0px;
+}
+.caption
+{
+   font-size:24px;
+    padding: 10px;
+}
+.search
+{
+    color: #9ac531;
+}
+.image_slider
+{
+    margin-left: -30px;
+}
+.image_slider li
+{
+    float: left;
+    list-style: none;
+    padding:0px 55px 20px 0px;
+}
+.media img
+{
+    float:left;
+    margin: 10px 0px;
+}
+.media-body
+{
+    padding:0px 30px;
+}
+#twitter-contact
+{
+    padding: 0px 80px;
+}
+.twitter-feed 
+{
+    margin-bottom: 25px;
+}
+.feed
+{
+    color: #f9993c;
+}
+.twitter
+{
+    color: #00aced !important;
+}
+hr
+{
+    height: 1px;
+  background-color: rgb(226, 226, 226);
+  opacity: 0.8;
+}
+#footer
+{
+    padding-bottom: 30px;
+}
+.fa-twitter,.fa-facebook,.fa-linkedin,.fa-dribbble
+{
+  color:white;
+}
+.facebook
+{
+   color: #38548f; 
+}
+.linkedin
+{
+   color: #2686b9; 
+}
+.dribbble
+{
+   color: #ef6499; 
+}
+@media (max-width: 991px) {
+    .navbar-header{
+        float: none;
+   }
+.logo
+    {
+    padding: 0px 20px;
+    }
+  .navbar-left{
+      float: none !important;
+      margin-left:-60px;
+  }
+  .navbar-right{
+        float: none !important;
+        }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 05px;
+      padding-bottom: 05px;
+  }
+   .navbar-collapse.collapse.in {
+        display: block!important;
+}
+   
+@media(max-width:768px) 
+{
+    .align
+    {
+        padding: 40px;
+    }
+}
